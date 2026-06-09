@@ -1,12 +1,13 @@
 ---
 title: "Abracadabracadoo Protocol: Blockchain Extension Concept"
-status: "Exploratory Layer"
-category: "extension"
+registry_id: "AAP-EXT-BLOCKCHAIN"
+status: "experimental"
+category: "extensions"
 canonical_format: "markdown"
+original_status: "Exploratory Layer"
 source_file: "Abracadabracadoo Blockchain Extension.docx"
 ---
-
-## Abracadabracadoo Protocol: Blockchain Extension Concept
+# Abracadabracadoo Protocol: Blockchain Extension Concept
 
 **Status:** Exploratory Layer – Optional Extension  
 **Filed Under:** Serverless Verification and Immutable Audit Trails

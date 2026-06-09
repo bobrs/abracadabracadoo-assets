@@ -1,20 +1,22 @@
 ---
 title: "Abracadabracadoo Protocol Specification"
-status: "Version 1.0"
+registry_id: "AAP-CORE-001"
+status: "stable"
 category: "core"
 canonical_format: "markdown"
+original_status: "Version 1.0"
 source_file: "Abracadabracadoo_Protocol_Specification.docx"
 ---
+# Abracadabracadoo Protocol Specification
 
-**Abracadabracadoo Protocol Specification**  
 Version: 1.0  
 Date: May 5, 2025
 
-**1. Overview**
+## 1. Overview
 
 The **Abracadabracadoo Protocol** is a nested‑AEAD, hash‑nonce end‑to‑end encryption scheme with server‑mediated proof release. It lets a sender (A) bind a “proof token” (P) to the message ciphertext (EM) via hash‑derived nonces, so that a recipient (B) can trigger the release of P—and anyone with server logs can later verify that B obtained a sound, decryptable message—without the server ever seeing the plaintext.
 
-**2. Terminology**
+## 2. Terminology
 
 - **A**: Sender (Alice)
 
@@ -42,9 +44,9 @@ The **Abracadabracadoo Protocol** is a nested‑AEAD, hash‑nonce end‑to‑en
 
 - **T1, T2**: Server‑logged timestamps
 
-**3. Protocol Flow**
+## 3. Protocol Flow
 
-**3.1 Preparation**
+### 3.1 Preparation
 
 1.  **Key Establishment**
 
@@ -52,7 +54,7 @@ The **Abracadabracadoo Protocol** is a nested‑AEAD, hash‑nonce end‑to‑en
 
     - A & S share K_proof (for EP) via a separate secure channel.
 
-**3.2 Encryption by A**
+### 3.2 Encryption by A
 
 1.  **Compute Proof Token**
 
@@ -76,7 +78,7 @@ The **Abracadabracadoo Protocol** is a nested‑AEAD, hash‑nonce end‑to‑en
 
     - S logs (msgID, H_EM, T1).
 
-**3.3 Receipt Challenge by B**
+### 3.3 Receipt Challenge by B
 
 1.  **B Receives** (EM, EP).
 
@@ -88,7 +90,7 @@ The **Abracadabracadoo Protocol** is a nested‑AEAD, hash‑nonce end‑to‑en
 
     - B sends (msgID, H_EM′) to S.
 
-**3.4 Proof Release by S**
+### 3.4 Proof Release by S
 
 1.  **Verify** H_EM′ == H_EM (from log).
 
@@ -102,7 +104,7 @@ The **Abracadabracadoo Protocol** is a nested‑AEAD, hash‑nonce end‑to‑en
 
     - S forwards P to B.
 
-**3.5 Verification**
+### 3.5 Verification
 
 Any party (A, B, or auditor) can:
 
@@ -114,7 +116,7 @@ Any party (A, B, or auditor) can:
 
 4.  Decrypt EM under nonce=SHA256(P)\[0..11\] and K_msg to recover M.
 
-**4. Security Properties**
+## 4. Security Properties
 
 - **End-to-End Encryption:** Only A & B (holding K_msg) see M.
 
@@ -124,7 +126,7 @@ Any party (A, B, or auditor) can:
 
 - **Hash‑Derived Nonces:** Nested hash nonces bind message and proof together, preventing replay or tampering.
 
-**5. Implementation Notes**
+## 5. Implementation Notes
 
 - **AEAD Ciphers:** Use AES‑SIV (RFC 5297) or ChaCha20‑Poly1305 with careful nonce handling.
 
@@ -134,7 +136,7 @@ Any party (A, B, or auditor) can:
 
 - **Nonce Length:** Truncate 256‑bit hash to 96 bits for AEAD nonces where required.
 
-**Primary Differences between Abracadabra and Abracadabracadoo**
+## Primary Differences between Abracadabra and Abracadabracadoo
 
 | **Aspect**            | **Abracadabra**                                                                                                | **Abracadabracadoo**                                                   |
 |-----------------------|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|

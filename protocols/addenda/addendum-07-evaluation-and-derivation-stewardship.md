@@ -1,11 +1,12 @@
 ---
 title: "Abracadabradoo Protocol Addendum VII: Evaluation and Derivation Stewardship"
-status: "Draft"
-category: "addendum"
+registry_id: "AAP-ADD-07"
+status: "draft"
+category: "addenda"
 canonical_format: "markdown"
+original_status: "Draft"
 source_file: "abracadabradoo_protocol_addendum_vii_evaluation_and_derivation_stewardship.md"
 ---
-
 # Abracadabradoo Protocol Addendum VII: Evaluation and Derivation Stewardship
 
 **Status:** Draft – Conceptual / Governance Layer  

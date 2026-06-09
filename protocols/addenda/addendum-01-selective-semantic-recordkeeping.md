@@ -1,20 +1,26 @@
 ---
 title: "Abracadabracadoo Protocol Addendum I: Selective Semantic Recordkeeping"
-status: "Preliminary Activation"
-category: "addendum"
+registry_id: "AAP-ADD-01"
+status: "draft"
+category: "addenda"
 canonical_format: "markdown"
+original_status: "Preliminary Activation"
 source_file: "Abracadabracadoo_Protocol_Addendum_I.docx"
+legacy_name_contains: "Abracadabradoo"
 ---
+# Abracadabracadoo Protocol Addendum I: Selective Semantic Recordkeeping
 
-**Abracadabradoo Protocol Addendum I: Selective Semantic Recordkeeping**  
-**Status: Preliminary Activation**  
-**Filed under: Declaration Layer Specification**
+> **Provenance note:** This document preserves historical naming from earlier drafts. References such as `Abracadabradoo`, `DeepTrust`, or `Dialogica` may indicate legacy project names, source-document context, or sibling protocol material rather than current public positioning.
 
-**Abstract**
+## Abracadabradoo Protocol Addendum I: Selective Semantic Recordkeeping
+## Status: Preliminary Activation
+## Filed under: Declaration Layer Specification
+
+## Abstract
 
 This addendum defines an extension to the Abracadabradoo Protocol that enables participants to issue **public declarations of agreement**, subject to mutual verification and **discretionary recordkeeping** by the server. The layer introduces signed, optionally payload-carrying statements with cryptographic hooks into prior entangled exchanges. It allows the server to behave not only as a passive witness, but as a **semantic adjudicator**, capable of retaining or discarding declarations based on their structural integrity and signatures.
 
-**1. Context**
+## 1. Context
 
 The core Abracadabradoo Protocol facilitates:
 
@@ -34,7 +40,7 @@ This addendum introduces:
 
 - A server discretion interface for record inclusion
 
-**2. Anatomy of a Declaration**
+## 2. Anatomy of a Declaration
 
 A Declaration D includes:
 
@@ -48,7 +54,7 @@ A Declaration D includes:
 
 - A digital signature by A (sig_A)
 
-**2.1 Optional Response by B**
+### 2.1 Optional Response by B
 
 B may respond with:
 
@@ -60,7 +66,7 @@ B may respond with:
 
 The system tolerates asymmetry: **even a one-sided declaration may be logged**, pending server policy.
 
-**3. Server as Semantic Arbiter**
+## 3. Server as Semantic Arbiter
 
 The server receives Declaration D and may:
 
@@ -70,7 +76,7 @@ The server receives Declaration D and may:
 
 - Store D in a provisional, non-canonical record tier
 
-**3.1 Logging Heuristics (Suggested)**
+### 3.1 Logging Heuristics (Suggested)
 
 - Log only when both A and B sign D
 
@@ -82,7 +88,7 @@ This allows the server to function like a **court clerk**:
 
 *Capable of recording proceedings, filtering speculative statements, and maintaining integrity of the permanent archive.*
 
-**4. Trust Implications**
+## 4. Trust Implications
 
 - Participants can **test consensus without forcing collapse**
 
@@ -100,7 +106,7 @@ This creates a **consensual bridge** between:
 
 - Historical recordkeeping under **conditional memory**
 
-**5. Conclusion**
+## 5. Conclusion
 
 This addendum unlocks the ability to not only **exchange encrypted potential**, but to optionally **declare shared reality**—without compromising sovereignty or privacy.
 

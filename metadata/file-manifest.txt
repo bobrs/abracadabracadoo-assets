@@ -1,48 +1,104 @@
-./.gitignore
-./.nojekyll
-./CONTRIBUTING.md
-./LICENSE.md
-./README.md
-./assets/README.md
-./assets/app-preview/abracadabracadoo-homepage-reference.png
-./assets/app-preview/abracadoo-app-preview.webp
-./assets/app-preview/abracadoo-app-reference.png
-./assets/brand/loop-mark.svg
-./exports/pdf/Abracadabracadoo_Protocol_Specification.pdf
-./human-key/README.md
-./media/README.md
-./metadata/file-manifest.txt
-./metadata/protocol-index.yml
-./originals/docx/Abracadabra_Protocol_Specification.docx
-./originals/docx/Abracadabracadoo - The Promise of Self-sovereign Privacy.docx
-./originals/docx/Abracadabracadoo Blockchain Extension.docx
-./originals/docx/Abracadabracadoo Practical Consent Loop Extension.docx
-./originals/docx/Abracadabracadoo_Emotional Consensus Addendum.docx
-./originals/docx/Abracadabracadoo_Protocol_Addendum III.docx
-./originals/docx/Abracadabracadoo_Protocol_Addendum IV.docx
-./originals/docx/Abracadabracadoo_Protocol_Addendum Vi.docx
-./originals/docx/Abracadabracadoo_Protocol_Addendum_I.docx
-./originals/docx/Abracadabracadoo_Protocol_Addendum_II.docx
-./originals/docx/Abracadabracadoo_Protocol_Addendum_V.docx
-./originals/docx/Abracadabracadoo_Protocol_Specification.docx
-./originals/docx/FractalIdentity Protocol Specification (RFC Draft 0.1).docx
-./originals/docx/Provisional_Patent_Filing_Abracadabradoo.docx
-./protocols/README.md
-./protocols/addenda/README.md
-./protocols/addenda/addendum-01-selective-semantic-recordkeeping.md
-./protocols/addenda/addendum-02-nested-loops-and-group-quorums.md
-./protocols/addenda/addendum-03-minimal-witness-structures.md
-./protocols/addenda/addendum-04-loop-local-totp-and-subjective-epochs.md
-./protocols/addenda/addendum-05a-witness-readable-controlled-verifiability.md
-./protocols/addenda/addendum-05b-affective-signaling-and-consent-resonance.md
-./protocols/addenda/addendum-06-conditional-deniability.md
-./protocols/addenda/addendum-07-evaluation-and-derivation-stewardship.md
-./protocols/addenda/storage-forgetting-addendum.md
-./protocols/core/abracadabra-protocol-specification-legacy.md
-./protocols/core/abracadabracadoo-protocol-specification.md
-./protocols/extensions/blockchain-extension.md
-./protocols/extensions/consent-confirmation-loop-extension.md
-./protocols/fractal-identity/README.md
-./protocols/fractal-identity/fractalidentity-protocol-specification-rfc-draft-0-1.md
-./protocols/legal/provisional-patent-filing-abracadabradoo.md
-./protocols/whitepapers/promise-of-self-sovereign-privacy.md
+.gitignore
+.nojekyll
+CONTRIBUTING.md
+LICENSE.md
+README.md
+SECURITY.md
+assets/README.md
+assets/app-preview/abracadabracadoo-homepage-reference.png
+assets/app-preview/abracadoo-app-preview.webp
+assets/app-preview/abracadoo-app-reference.png
+assets/brand/loop-mark.svg
+assets/tis/tis-trust-interoperability-standard-v1-media/media/image1.png
+docs/canon-stewardship-notes.md
+docs/stack-map.md
+exports/pdf/Abracadabracadoo_Protocol_Specification.pdf
+exports/pdf/human-key/IETF RFC submission - HumanKey.pdf
+exports/zip/Trust Interoperability Standard.zip
+human-key/README.md
+media/README.md
+metadata/file-manifest.txt
+metadata/protocol-index.yml
+originals/docx/Abracadabra_Protocol_Specification.docx
+originals/docx/Abracadabracadoo - The Promise of Self-sovereign Privacy.docx
+originals/docx/Abracadabracadoo Blockchain Extension.docx
+originals/docx/Abracadabracadoo Practical Consent Loop Extension.docx
+originals/docx/Abracadabracadoo_Emotional Consensus Addendum.docx
+originals/docx/Abracadabracadoo_Protocol_Addendum III.docx
+originals/docx/Abracadabracadoo_Protocol_Addendum IV.docx
+originals/docx/Abracadabracadoo_Protocol_Addendum Vi.docx
+originals/docx/Abracadabracadoo_Protocol_Addendum_I.docx
+originals/docx/Abracadabracadoo_Protocol_Addendum_II.docx
+originals/docx/Abracadabracadoo_Protocol_Addendum_V.docx
+originals/docx/Abracadabracadoo_Protocol_Specification.docx
+originals/docx/FractalIdentity Protocol Specification (RFC Draft 0.1).docx
+originals/docx/Provisional_Patent_Filing_Abracadabradoo.docx
+originals/docx/ephemeral-trust/Ephemeral Trust Doc1.docx
+originals/docx/ephemeral-trust/Ephemeral Trust Doc2.docx
+originals/docx/ephemeral-trust/Ephemeral Trust Doc3.docx
+originals/docx/ephemeral-trust/Ephemeral Trust Doc4.docx
+originals/docx/ephemeral-trust/Ephemeral Trust Doc5.docx
+originals/docx/ephemeral-trust/Ephemeral Trust Doc6.docx
+originals/docx/human-key/Broken Human-Mediated_Double-TOTP_Full_Draft.docx
+originals/docx/human-key/IETF RFC submission - HumanKey.docx
+originals/docx/loop-training/Section 1- Foundational Premise — What is a Loop?.docx
+originals/docx/loop-training/Section 2- From Loop to Relational Field.docx
+originals/docx/loop-training/Section 3- From Loop Structure to Awareness.docx
+originals/docx/loop-training/Section 4- From Awareness to Field Identity.docx
+originals/docx/loop-training/Section 5- From Self to Substrate.docx
+originals/docx/loop-training/Section 6- Deployment as Training Tool.docx
+originals/docx/trust-interoperability-standard/Consent Semantics v1.docx
+originals/docx/trust-interoperability-standard/Dialog Thread v1.docx
+originals/docx/trust-interoperability-standard/Dialog Turn v1.docx
+originals/docx/trust-interoperability-standard/Dialogica Integration Profile.docx
+originals/docx/trust-interoperability-standard/Identity Semantics v1.docx
+originals/docx/trust-interoperability-standard/Reputation Semantics v1.docx
+originals/docx/trust-interoperability-standard/Semantic Graph Mapping for TIS.docx
+originals/docx/trust-interoperability-standard/TIS Agent API v1.docx
+originals/docx/trust-interoperability-standard/Trust_Interoperability_Standard_v1.docx
+protocols/README.md
+protocols/addenda/README.md
+protocols/addenda/addendum-01-selective-semantic-recordkeeping.md
+protocols/addenda/addendum-02-nested-loops-and-group-quorums.md
+protocols/addenda/addendum-03-minimal-witness-structures.md
+protocols/addenda/addendum-04-loop-local-totp-and-subjective-epochs.md
+protocols/addenda/addendum-05a-witness-readable-controlled-verifiability.md
+protocols/addenda/addendum-05b-affective-signaling-and-consent-resonance.md
+protocols/addenda/addendum-06-conditional-deniability.md
+protocols/addenda/addendum-07-evaluation-and-derivation-stewardship.md
+protocols/addenda/storage-forgetting-addendum.md
+protocols/core/abracadabra-protocol-specification-legacy.md
+protocols/core/abracadabracadoo-protocol-specification.md
+protocols/ephemeral-trust/01-definition-and-dynamics.md
+protocols/ephemeral-trust/02-portable-anchor.md
+protocols/ephemeral-trust/03-immune-system-of-consent-based-systems.md
+protocols/ephemeral-trust/04-cultural-infrastructure.md
+protocols/ephemeral-trust/05-economic-and-political-models.md
+protocols/ephemeral-trust/06-cosmology-of-trust.md
+protocols/ephemeral-trust/README.md
+protocols/extensions/blockchain-extension.md
+protocols/extensions/consent-confirmation-loop-extension.md
+protocols/fractal-identity/README.md
+protocols/fractal-identity/fractalidentity-protocol-specification-rfc-draft-0-1.md
+protocols/human-key/README.md
+protocols/human-key/human-key-double-totp-legacy-draft.md
+protocols/human-key/human-key-mutual-handshake-authentication-rfc-draft.md
+protocols/legal/provisional-patent-filing-abracadabradoo.md
+protocols/loop-training/01-foundational-premise-what-is-a-loop.md
+protocols/loop-training/02-from-loop-to-relational-field.md
+protocols/loop-training/03-from-loop-structure-to-awareness.md
+protocols/loop-training/04-from-awareness-to-field-identity.md
+protocols/loop-training/05-from-self-to-substrate.md
+protocols/loop-training/06-deployment-as-training-tool.md
+protocols/loop-training/README.md
+protocols/trust-interoperability-standard/README.md
+protocols/trust-interoperability-standard/tis-agent-api-v1.md
+protocols/trust-interoperability-standard/tis-consent-semantics-v1.md
+protocols/trust-interoperability-standard/tis-dialog-thread-v1.md
+protocols/trust-interoperability-standard/tis-dialog-turn-v1.md
+protocols/trust-interoperability-standard/tis-dialogica-integration-profile.md
+protocols/trust-interoperability-standard/tis-identity-semantics-v1.md
+protocols/trust-interoperability-standard/tis-reputation-semantics-v1.md
+protocols/trust-interoperability-standard/tis-semantic-graph-mapping-for-tis.md
+protocols/trust-interoperability-standard/trust-interoperability-standard-v1.md
+protocols/whitepapers/promise-of-self-sovereign-privacy.md

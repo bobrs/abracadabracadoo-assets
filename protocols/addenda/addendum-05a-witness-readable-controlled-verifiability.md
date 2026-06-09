@@ -1,11 +1,12 @@
 ---
 title: "Abracadabracadoo Protocol Addendum V: Witness-Readable Content with Controlled Verifiability"
-status: "Draft Proposal for Review"
-category: "addendum"
+registry_id: "AAP-ADD-05A"
+status: "draft"
+category: "addenda"
 canonical_format: "markdown"
+original_status: "Draft Proposal for Review"
 source_file: "Abracadabracadoo_Protocol_Addendum_V.docx"
 ---
-
 # Abracadabracadoo Protocol Addendum V: Witness-Readable Content with Controlled Verifiability
 
 **Status:** Draft Proposal for Review  

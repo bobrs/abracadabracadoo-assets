@@ -1,21 +1,22 @@
 ---
 title: "Abracadabra Protocol Specification"
-status: "Legacy Reference"
+registry_id: "AAP-LEGACY-001"
+status: "legacy"
 category: "core"
 canonical_format: "markdown"
+original_status: "Legacy Reference"
 source_file: "Abracadabra_Protocol_Specification.docx"
 ---
-
-**Abracadabra Protocol Specification**
+# Abracadabra Protocol Specification
 
 **Version:** 1.0  
 **Date:** April 22, 2025
 
-**1. Overview**
+## 1. Overview
 
 The **Abracadabra Protocol** is a two-layer, server-mediated, end-to-end encryption scheme with embedded hash-based challenge–response. It ensures that a sender (A) can prove delivery and decryption capability by a recipient (B) using only the original file and server logs, without requiring direct recipient confirmation.
 
-**2. Terminology**
+## 2. Terminology
 
 - **A**: Sender (Alice)
 
@@ -41,15 +42,15 @@ The **Abracadabra Protocol** is a two-layer, server-mediated, end-to-end encrypt
 
 - **T1**, **T2**: Timestamps logged at server receive and challenge events
 
-**3. Protocol Flow**
+## 3. Protocol Flow
 
-**3.1 Preparation and Key Establishment**
+### 3.1 Preparation and Key Establishment
 
 1.  **Inner Key (A↔B)**: A and B agree on K_AB via any authenticated key-exchange (e.g., double-ratchet).
 
 2.  **Outer Key (A↔S)**: A and S share K_AS through a separate key-exchange or pre-provisioned secret.
 
-**3.2 Message Encryption and Upload**
+### 3.2 Message Encryption and Upload
 
 1.  **Encrypt Inner Layer**:  
     C_inner = Enc\_{K_AB}(F)
@@ -67,7 +68,7 @@ The **Abracadabra Protocol** is a two-layer, server-mediated, end-to-end encrypt
 5.  **Server Locks**:  
     S computes C_locked = Enc\_{h}(C_outer) and forwards (msgID, C_locked) to B.
 
-**3.3 Recipient Unlock Challenge**
+### 3.3 Recipient Unlock Challenge
 
 1.  **B Receives**:  
     B obtains (msgID, C_locked) but cannot decrypt without h.
@@ -85,7 +86,7 @@ The **Abracadabra Protocol** is a two-layer, server-mediated, end-to-end encrypt
 5.  **Hash Release**:  
     S returns h to B.
 
-**3.4 Final Decryption**
+### 3.4 Final Decryption
 
 1.  **Unlock Outer Layer**:  
     C_outer = Dec\_{h}(C_locked)
@@ -96,7 +97,7 @@ The **Abracadabra Protocol** is a two-layer, server-mediated, end-to-end encrypt
 3.  **Deliver File**:  
     B now recovers original file F.
 
-**4. Proof of Delivery and Decryption Capability**
+## 4. Proof of Delivery and Decryption Capability
 
 At any point, A can demonstrate that B had the ability to decrypt by presenting:
 
@@ -112,7 +113,7 @@ At any point, A can demonstrate that B had the ability to decrypt by presenting:
 
 Because h = H(C_inner), the server log ties A’s original file to B’s ability to compute the correct hash, proving decryption capability.
 
-**5. Security Properties**
+## 5. Security Properties
 
 - **End-to-End Encryption**: Only A and B can decrypt the payload. Servers see only ciphertexts and hashes.
 
@@ -120,7 +121,7 @@ Because h = H(C_inner), the server log ties A’s original file to B’s ability
 
 - **Ephemeral Proof**: Once A and server logs are deleted, no evidence remains.
 
-**6. Implementation Notes**
+## 6. Implementation Notes
 
 - Use **AES-GCM** or equivalent AEAD for Enc and Dec functions.
 
@@ -130,4 +131,4 @@ Because h = H(C_inner), the server log ties A’s original file to B’s ability
 
 - Protect server logs in an append-only, tamper-evident store.
 
-**End of Specification**
+## End of Specification

@@ -1,11 +1,16 @@
 repository: abracadabracadoo-assets
-status: first-pass
+status: fifth-pass
 canonical_format: markdown
+cleanup_pass: v005
+coherence_notes: docs/canon-stewardship-notes.md
+stack_map: docs/stack-map.md
+security_policy: SECURITY.md
 working_code_repo: https://github.com/bobrs/abracadoo-code
 implementation_status:
   humankey: live_in_beta
   abracadabracadoo: live_in_beta
   fractalidentity: roadmap
+  trust_interoperability_standard: draft_publishing_shelf
 protocols:
   - id: abracadabracadoo-core
     title: Abracadabracadoo Protocol Specification
@@ -51,7 +56,126 @@ protocols:
   - id: promise-self-sovereign-privacy
     title: The Promise of Abracadabracadoo - Something New in E2EE
     path: protocols/whitepapers/promise-of-self-sovereign-privacy.md
+  - id: humankey-mutual-handshake
+    title: Human-Mediated Mutual-Handshake Authentication
+    status: active_draft
+    path: protocols/human-key/human-key-mutual-handshake-authentication-rfc-draft.md
+  - id: humankey-double-totp-legacy
+    title: Human-Mediated Double-TOTP Legacy Draft
+    status: legacy_reference
+    path: protocols/human-key/human-key-double-totp-legacy-draft.md
   - id: fractalidentity-rfc-0-1
     title: FractalIdentity Protocol Specification RFC Draft 0.1
     status: roadmap
     path: protocols/fractal-identity/fractalidentity-protocol-specification-rfc-draft-0-1.md
+standards:
+  - id: tis-core-v1
+    title: Trust Interoperability Standard v1
+    status: draft
+    path: protocols/trust-interoperability-standard/trust-interoperability-standard-v1.md
+  - id: tis-agent-api-v1
+    title: TIS Agent API v1
+    status: draft
+    path: protocols/trust-interoperability-standard/tis-agent-api-v1.md
+  - id: tis-consent-semantics-v1
+    title: Consent Semantics v1
+    status: draft
+    path: protocols/trust-interoperability-standard/tis-consent-semantics-v1.md
+  - id: tis-identity-semantics-v1
+    title: Identity Semantics v1
+    status: draft
+    path: protocols/trust-interoperability-standard/tis-identity-semantics-v1.md
+  - id: tis-reputation-semantics-v1
+    title: Reputation Semantics v1
+    status: draft
+    path: protocols/trust-interoperability-standard/tis-reputation-semantics-v1.md
+  - id: tis-dialog-turn-v1
+    title: Dialog Turn v1
+    status: draft
+    path: protocols/trust-interoperability-standard/tis-dialog-turn-v1.md
+  - id: tis-dialog-thread-v1
+    title: Dialog Thread v1
+    status: draft
+    path: protocols/trust-interoperability-standard/tis-dialog-thread-v1.md
+  - id: tis-semantic-graph-mapping
+    title: Semantic Graph Mapping for TIS
+    status: draft
+    path: protocols/trust-interoperability-standard/tis-semantic-graph-mapping-for-tis.md
+  - id: tis-dialogica-integration-profile
+    title: Dialogica Integration Profile
+    status: draft
+    path: protocols/trust-interoperability-standard/tis-dialogica-integration-profile.md
+
+  - id: ephemeral-trust-papers
+    title: Ephemeral Trust Papers
+    status: conceptual-series
+    path: protocols/ephemeral-trust/README.md
+    category: conceptual-foundation
+    notes: Six-part series defining ephemeral trust, portable anchors, consent immune systems, cultural infrastructure, economic/political models, and cosmology of trust.
+  - id: ephemeral-trust-definition-dynamics
+    title: Ephemeral Trust: Definition & Dynamics
+    status: conceptual
+    path: protocols/ephemeral-trust/01-definition-and-dynamics.md
+    category: ephemeral-trust
+  - id: ephemeral-trust-portable-anchor
+    title: Ephemeral Trust as a Portable Anchor
+    status: conceptual
+    path: protocols/ephemeral-trust/02-portable-anchor.md
+    category: ephemeral-trust
+  - id: ephemeral-trust-immune-system
+    title: The Immune System of Consent-Based Systems
+    status: conceptual
+    path: protocols/ephemeral-trust/03-immune-system-of-consent-based-systems.md
+    category: ephemeral-trust
+  - id: ephemeral-trust-cultural-infrastructure
+    title: Cultural Infrastructure for Ephemeral Trust
+    status: conceptual
+    path: protocols/ephemeral-trust/04-cultural-infrastructure.md
+    category: ephemeral-trust
+  - id: ephemeral-trust-economic-political-models
+    title: Ephemeral Trust in Economic and Political Models
+    status: conceptual
+    path: protocols/ephemeral-trust/05-economic-and-political-models.md
+    category: ephemeral-trust
+  - id: ephemeral-trust-cosmology
+    title: The Cosmology of Trust
+    status: conceptual
+    path: protocols/ephemeral-trust/06-cosmology-of-trust.md
+    category: ephemeral-trust
+
+  - id: loop-training-sequence
+    title: Loop Training
+    status: conceptual-training-sequence
+    path: protocols/loop-training/README.md
+    category: training
+    notes: Six-section path from loop recognition to relational fields, reflexivity, field identity, substrate awareness, and consent-coded training tools.
+  - id: loop-training-01-foundational-premise
+    title: Foundational Premise — What is a Loop?
+    status: conceptual
+    path: protocols/loop-training/01-foundational-premise-what-is-a-loop.md
+    category: loop-training
+  - id: loop-training-02-relational-field
+    title: From Loop to Relational Field
+    status: conceptual
+    path: protocols/loop-training/02-from-loop-to-relational-field.md
+    category: loop-training
+  - id: loop-training-03-loop-structure-awareness
+    title: From Loop Structure to Awareness
+    status: conceptual
+    path: protocols/loop-training/03-from-loop-structure-to-awareness.md
+    category: loop-training
+  - id: loop-training-04-field-identity
+    title: From Awareness to Field Identity
+    status: conceptual
+    path: protocols/loop-training/04-from-awareness-to-field-identity.md
+    category: loop-training
+  - id: loop-training-05-substrate
+    title: From Self to Substrate
+    status: conceptual
+    path: protocols/loop-training/05-from-self-to-substrate.md
+    category: loop-training
+  - id: loop-training-06-deployment
+    title: Deployment as Training Tool
+    status: conceptual
+    path: protocols/loop-training/06-deployment-as-training-tool.md
+    category: loop-training

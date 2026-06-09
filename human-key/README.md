@@ -20,3 +20,10 @@ Every relationship gets its own small trust container. A compromise in one relat
 ## Media
 
 Large HumanKey explainer/ad videos are intentionally not included in this first-pass zip to keep the repository lightweight. Add them later under `media/humankey/` or attach them as GitHub release assets.
+
+## Protocol drafts
+
+Canonical Markdown drafts live in `protocols/human-key/`.
+
+- `human-key-mutual-handshake-authentication-rfc-draft.md`
+- `human-key-double-totp-legacy-draft.md`

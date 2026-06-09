@@ -1,20 +1,22 @@
 ---
 title: "Abracadabradoo Protocol Addendum IV: Loop-Local TOTP and Subjective Epochs"
-status: "Time-Unbound Operational"
-category: "addendum"
+registry_id: "AAP-ADD-04"
+status: "draft"
+category: "addenda"
 canonical_format: "markdown"
+original_status: "Time-Unbound Operational"
 source_file: "Abracadabracadoo_Protocol_Addendum IV.docx"
 ---
+# Abracadabradoo Protocol Addendum IV: Loop-Local TOTP and Subjective Epochs
 
-**Abracadabradoo Protocol Addendum IV: Loop-Local TOTP and Subjective Epochs**  
-**Status: Time-Unbound Operational**  
-**Filed under: Rhythmic Autonomy and Temporal Consent**
+## Status: Time-Unbound Operational
+## Filed under: Rhythmic Autonomy and Temporal Consent
 
-**Abstract**
+## Abstract
 
 This addendum introduces support for **loop-local timebases**—subjective, consent-initialized epochs that allow Time-Based One-Time Password (TOTP) synchronization within semantic loops without relying on global clocks or external entropy. By anchoring loop behavior in negotiated rhythm rather than universal chronology, this mechanism enables resilient, sovereign synchronization across asynchronous, disconnected, or temporally diverse environments.
 
-**1. The Need for Loop-Local Time**
+## 1. The Need for Loop-Local Time
 
 Global time synchronization introduces:
 
@@ -34,7 +36,7 @@ SCT-based communication systems require:
 
 Loop-local epochs allow parties to agree on "now" and count from there.
 
-**2. Defining the Epoch**
+## 2. Defining the Epoch
 
 Each loop (Diad, Triad, or Group Loop) may negotiate:
 
@@ -52,7 +54,7 @@ This epoch is:
 
 - Private unless disclosed
 
-**3. TOTP Implementation with Subjective Epochs**
+## 3. TOTP Implementation with Subjective Epochs
 
 A traditional TOTP scheme might use:
 
@@ -78,7 +80,7 @@ Participants may store:
 
 - tick_interval
 
-**4. Synchronization Behavior**
+## 4. Synchronization Behavior
 
 - Initial loop establishment includes negotiation of timing
 
@@ -94,7 +96,7 @@ This avoids need for external time coordination and supports:
 
 - Time-private exchanges
 
-**4.1 Temporal Privacy via Subjective Epochs**
+### 4.1 Temporal Privacy via Subjective Epochs
 
 Because the epoch and tick rate are known only within the loop, a participant may produce proof of:
 
@@ -130,7 +132,7 @@ This avoids need for external time coordination and supports:
 
 - Time-private exchanges
 
-**5. Use Cases**
+## 5. Use Cases
 
 - Secure communications between mobile, disconnected agents
 
@@ -138,7 +140,7 @@ This avoids need for external time coordination and supports:
 
 - Human-mediated rituals requiring local rhythm rather than network precision
 
-**6. Conclusion**
+## 6. Conclusion
 
 By removing global time as a dependency and treating time as a loop-internal rhythm, this addendum restores autonomy, redundancy, and semantic sovereignty to synchronous verification.
 

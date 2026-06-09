@@ -1,20 +1,22 @@
 ---
 title: "Abracadabradoo Protocol Addendum III: Minimal Witness Structures"
-status: "Loop-Extended Operational"
-category: "addendum"
+registry_id: "AAP-ADD-03"
+status: "draft"
+category: "addenda"
 canonical_format: "markdown"
+original_status: "Loop-Extended Operational"
 source_file: "Abracadabracadoo_Protocol_Addendum III.docx"
 ---
+# Abracadabradoo Protocol Addendum III: Minimal Witness Structures
 
-**Abracadabradoo Protocol Addendum III: Minimal Witness Structures**  
-**Status: Loop-Extended Operational**  
-**Filed under: Consent Expansion and Multilateral Participation**
+## Status: Loop-Extended Operational
+## Filed under: Consent Expansion and Multilateral Participation
 
-**Abstract**
+## Abstract
 
 This addendum defines the minimal structural extensions required to transform a two-party semantic loop into a **witnessable, scalable, and verifiably consensual loop**. These fields form the header schema for the **Consent-Carrying Loop (CCL)**, supporting third-party inclusion, multiparty trust networks, and optional role differentiation. This layer enables any loop to carry metadata about shared presence—without exposing content or compromising privacy.
 
-**1. Header Structure: CCL Fields**
+## 1. Header Structure: CCL Fields
 
 The following optional header fields may be prepended to the outer envelope of any Abracadabradoo exchange:
 
@@ -52,7 +54,7 @@ The following optional header fields may be prepended to the outer envelope of a
 
 All values are optional but cryptographically bound to the message envelope when used.
 
-**2. Protocol Behavior**
+## 2. Protocol Behavior
 
 - Headers are not encrypted but may be hashed into outer envelope identifiers.
 
@@ -62,7 +64,7 @@ All values are optional but cryptographically bound to the message envelope when
 
 - Witness roles are advisory but may guide retention and observation behavior by trusted intermediaries.
 
-**3. Third-Party Witness Participation**
+## 3. Third-Party Witness Participation
 
 A party (e.g., C) listed as a witness:
 
@@ -74,7 +76,7 @@ A party (e.g., C) listed as a witness:
 
 Witness roles are not enforceable but are **socially enforceable**—protocols may defer to local rules.
 
-**4. Use Cases**
+## 4. Use Cases
 
 - **Mediated trust chains**: A and B agree to loop through C, who retains timestamped participation.
 
@@ -82,7 +84,7 @@ Witness roles are not enforceable but are **socially enforceable**—protocols m
 
 - **Adjudication structures**: Dispute resolution engines built on shared loop records.
 
-**5. Privacy Considerations**
+## 5. Privacy Considerations
 
 - Headers are minimized and carry no plaintext payload.
 
@@ -90,7 +92,7 @@ Witness roles are not enforceable but are **socially enforceable**—protocols m
 
 - Loops may include revocation or retraction declarations, optionally.
 
-**6. Conclusion**
+## 6. Conclusion
 
 This addendum introduces the least-required structural grammar for building **semantic networks out of individual loops**.
 

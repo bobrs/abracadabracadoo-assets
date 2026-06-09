@@ -1,11 +1,12 @@
 ---
 title: "Abracadabracadoo Storage & Forgetting Addendum"
-status: "Draft v0.1"
-category: "addendum"
+registry_id: "AAP-ADD-STORAGE-FORGETTING"
+status: "draft"
+category: "addenda"
 canonical_format: "markdown"
+original_status: "Draft v0.1"
 source_file: "abracadabracadoo_storage_forgetting_addendum_draft_v_0.md"
 ---
-
 # Abracadabracadoo Storage & Forgetting Addendum
 
 **Status:** Draft v0.1  

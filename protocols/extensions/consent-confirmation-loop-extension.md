@@ -1,12 +1,13 @@
 ---
 title: "Abracadabracadoo Protocol: Consent Confirmation Loop Extension"
-status: "Protocol Extension"
-category: "extension"
+registry_id: "AAP-EXT-CONSENT-CONFIRMATION"
+status: "experimental"
+category: "extensions"
 canonical_format: "markdown"
+original_status: "Protocol Extension"
 source_file: "Abracadabracadoo Practical Consent Loop Extension.docx"
 ---
-
-## Abracadabracadoo Protocol: Consent Confirmation Loop Extension
+# Abracadabracadoo Protocol: Consent Confirmation Loop Extension
 
 **Status:** Protocol Extension  
 **Filed Under:** Verifiable Consent Structures

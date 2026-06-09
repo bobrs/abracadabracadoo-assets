@@ -1,28 +1,31 @@
 ---
 title: "Provisional Patent Filing: Abracadabradoo Protocol"
-status: "Reference Draft"
+registry_id: "AAP-LEGAL-PROVISIONAL-001"
+status: "legal-draft"
 category: "legal"
 canonical_format: "markdown"
+original_status: "Reference Draft"
 source_file: "Provisional_Patent_Filing_Abracadabradoo.docx"
 ---
+# Provisional Patent Filing: Abracadabradoo Protocol
 
-**Provisional Patent Filing: Abracadabradoo Protocol – Claims and Supporting Description**
+## Provisional Patent Filing: Abracadabradoo Protocol – Claims and Supporting Description
 
-**Title**
+## Title
 
 Abracadabradoo Protocol: Nested AEAD Messaging with Server-Mediated Proof Release
 
-**Inventor**
+## Inventor
 
 **Name:** Bobby Simpson  
 **Email:** [<u>uspto@bobbysimpson.com</u>](mailto:uspto@bobbysimpson.com)  
 **Date of Conception:** May 5, 2025
 
-**Field of Invention**
+## Field of Invention
 
 This invention relates to the field of secure communications, specifically systems and methods for end-to-end encrypted message transmission with server-mediated delivery confirmation using nested authenticated encryption and cryptographic proof tokens.
 
-**Background**
+## Background
 
 Conventional secure messaging protocols rely on mutual trust between parties or server-mediated confirmation of message delivery. These models often require trust in servers or expose metadata. The Abracadabradoo Protocol addresses this limitation by enabling:
 
@@ -34,7 +37,7 @@ Conventional secure messaging protocols rely on mutual trust between parties or 
 
 - Erasable metadata through proof token control.
 
-**Summary of the Invention**
+## Summary of the Invention
 
 The invention provides a cryptographic protocol using:
 
@@ -44,7 +47,7 @@ The invention provides a cryptographic protocol using:
 
 3.  **Post-facto verifiability**, enabling third-party verification that the message was decrypted and obtained by the recipient without ever revealing plaintext to the server.
 
-**Claims (Provisional Draft)**
+## Claims (Provisional Draft)
 
 1.  **A method of message encryption and proof binding comprising:**
 
@@ -84,7 +87,7 @@ The invention provides a cryptographic protocol using:
 
 10. **The system of claim 6**, wherein nested AEAD allows message and proof linkage without revealing content to intermediaries.
 
-**Supporting Description**
+## Supporting Description
 
 The Abracadabradoo Protocol uniquely employs **nested AEAD encryption** that binds a proof token to a message and vice versa through a double-hash chaining scheme. This design enables:
 
@@ -106,4 +109,4 @@ This method is extensible to:
 
 - Consent-based audit trails.
 
-**End of Document**
+## End of Document

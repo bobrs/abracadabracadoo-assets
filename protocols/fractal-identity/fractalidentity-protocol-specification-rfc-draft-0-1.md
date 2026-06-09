@@ -1,26 +1,27 @@
 ---
 title: "FractalIdentity Protocol Specification (RFC Draft 0.1)"
-status: "DRAFT / Roadmap"
+registry_id: "FI-RFC-0001"
+status: "roadmap"
 category: "fractal-identity"
 canonical_format: "markdown"
+original_status: "DRAFT / Roadmap"
 source_file: "FractalIdentity Protocol Specification (RFC Draft 0.1).docx"
 ---
+# FractalIdentity Protocol Specification (RFC Draft 0.1)
 
-**FractalIdentity Protocol Specification (RFC Draft 0.1)**
+## Status
 
-**Status**
+## DRAFT
 
-**DRAFT**
-
-**Authors**
+## Authors
 
 Bob Simpson (@openai)
 
-**Overview**
+## Overview
 
 The FractalIdentity protocol defines a decentralized, multi-contextual identity framework that supports plural, evolving, and sovereign relationships between agents. It enables any two agents to establish and interpret a plurality of identity channels, forming a dynamic and multidimensional identity mesh. The protocol prioritizes co-emergence, autonomy, and interpretive diversity rather than static identifiers or central authority.
 
-**Goals**
+## Goals
 
 - Enable agents to maintain **multiple simultaneous identity relationships**
 
@@ -32,7 +33,7 @@ The FractalIdentity protocol defines a decentralized, multi-contextual identity 
 
 - Ensure protocol transparency, interpretability, and sovereignty by design
 
-**Definitions**
+## Definitions
 
 - **Agent**: Any autonomous identity-participating entity (human, bot, org, node)
 
@@ -46,9 +47,9 @@ The FractalIdentity protocol defines a decentralized, multi-contextual identity 
 
 - **Interpretive Note**: An agent’s statement describing their perception of another
 
-**Data Structures**
+## Data Structures
 
-**FractalIdentity (Core Record)**
+## FractalIdentity (Core Record)
 
 {
 
@@ -112,33 +113,33 @@ The FractalIdentity protocol defines a decentralized, multi-contextual identity 
 
 }
 
-**Protocol Operations**
+## Protocol Operations
 
-**express(context, alias)**
+## express(context, alias)
 
 Declare presence in a context, possibly pseudonymously.
 
-**observe(agent_id)**
+## observe(agent_id)
 
 Register awareness of another agent’s identity expression.
 
-**link(channel_id)**
+## link(channel_id)
 
 Confirm a shared identity channel between two agents.
 
-**note_interpretation(channel_id, text)**
+## note_interpretation(channel_id, text)
 
 Add a subjective interpretation note to an identity channel.
 
-**retire(channel_id)**
+## retire(channel_id)
 
 De-activate or dissolve an identity channel.
 
-**merge(mesh_ids)**
+## merge(mesh_ids)
 
 Consolidate multiple identity meshes into one coherent set of channels (with consent).
 
-**Design Principles**
+## Design Principles
 
 - **Interpretive Pluralism**: The same relationship may be understood differently by each agent.
 
@@ -148,7 +149,7 @@ Consolidate multiple identity meshes into one coherent set of channels (with con
 
 - **Fractal Emergence**: Identity is recursively nested, pattern-rich, and scale-variant.
 
-**Potential Applications**
+## Potential Applications
 
 - Trust-aware social platforms with consentful graph building
 
@@ -158,7 +159,7 @@ Consolidate multiple identity meshes into one coherent set of channels (with con
 
 - Multi-perspective journaling or memory systems
 
-**Implementation Notes**
+## Implementation Notes
 
 - Underlying identifiers may use [<u>DIDs</u>](https://www.w3.org/TR/did-core/)
 
@@ -166,7 +167,7 @@ Consolidate multiple identity meshes into one coherent set of channels (with con
 
 - IPFS or similar content-addressable storage for origin events
 
-**Open Questions**
+## Open Questions
 
 - How are contested identity relationships reconciled or forked?
 
@@ -174,7 +175,7 @@ Consolidate multiple identity meshes into one coherent set of channels (with con
 
 - Can agents be notified when they are observed in a new channel?
 
-**License**
+## License
 
 Creative Commons Attribution 4.0 International (CC BY 4.0)
 
