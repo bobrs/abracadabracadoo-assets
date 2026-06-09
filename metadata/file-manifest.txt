@@ -1,0 +1,48 @@
+./.gitignore
+./.nojekyll
+./CONTRIBUTING.md
+./LICENSE.md
+./README.md
+./assets/README.md
+./assets/app-preview/abracadabracadoo-homepage-reference.png
+./assets/app-preview/abracadoo-app-preview.webp
+./assets/app-preview/abracadoo-app-reference.png
+./assets/brand/loop-mark.svg
+./exports/pdf/Abracadabracadoo_Protocol_Specification.pdf
+./human-key/README.md
+./media/README.md
+./metadata/file-manifest.txt
+./metadata/protocol-index.yml
+./originals/docx/Abracadabra_Protocol_Specification.docx
+./originals/docx/Abracadabracadoo - The Promise of Self-sovereign Privacy.docx
+./originals/docx/Abracadabracadoo Blockchain Extension.docx
+./originals/docx/Abracadabracadoo Practical Consent Loop Extension.docx
+./originals/docx/Abracadabracadoo_Emotional Consensus Addendum.docx
+./originals/docx/Abracadabracadoo_Protocol_Addendum III.docx
+./originals/docx/Abracadabracadoo_Protocol_Addendum IV.docx
+./originals/docx/Abracadabracadoo_Protocol_Addendum Vi.docx
+./originals/docx/Abracadabracadoo_Protocol_Addendum_I.docx
+./originals/docx/Abracadabracadoo_Protocol_Addendum_II.docx
+./originals/docx/Abracadabracadoo_Protocol_Addendum_V.docx
+./originals/docx/Abracadabracadoo_Protocol_Specification.docx
+./originals/docx/FractalIdentity Protocol Specification (RFC Draft 0.1).docx
+./originals/docx/Provisional_Patent_Filing_Abracadabradoo.docx
+./protocols/README.md
+./protocols/addenda/README.md
+./protocols/addenda/addendum-01-selective-semantic-recordkeeping.md
+./protocols/addenda/addendum-02-nested-loops-and-group-quorums.md
+./protocols/addenda/addendum-03-minimal-witness-structures.md
+./protocols/addenda/addendum-04-loop-local-totp-and-subjective-epochs.md
+./protocols/addenda/addendum-05a-witness-readable-controlled-verifiability.md
+./protocols/addenda/addendum-05b-affective-signaling-and-consent-resonance.md
+./protocols/addenda/addendum-06-conditional-deniability.md
+./protocols/addenda/addendum-07-evaluation-and-derivation-stewardship.md
+./protocols/addenda/storage-forgetting-addendum.md
+./protocols/core/abracadabra-protocol-specification-legacy.md
+./protocols/core/abracadabracadoo-protocol-specification.md
+./protocols/extensions/blockchain-extension.md
+./protocols/extensions/consent-confirmation-loop-extension.md
+./protocols/fractal-identity/README.md
+./protocols/fractal-identity/fractalidentity-protocol-specification-rfc-draft-0-1.md
+./protocols/legal/provisional-patent-filing-abracadabradoo.md
+./protocols/whitepapers/promise-of-self-sovereign-privacy.md

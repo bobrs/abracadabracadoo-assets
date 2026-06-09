@@ -1,0 +1,57 @@
+repository: abracadabracadoo-assets
+status: first-pass
+canonical_format: markdown
+working_code_repo: https://github.com/bobrs/abracadoo-code
+implementation_status:
+  humankey: live_in_beta
+  abracadabracadoo: live_in_beta
+  fractalidentity: roadmap
+protocols:
+  - id: abracadabracadoo-core
+    title: Abracadabracadoo Protocol Specification
+    status: version_1_0
+    path: protocols/core/abracadabracadoo-protocol-specification.md
+  - id: abracadabra-legacy
+    title: Abracadabra Protocol Specification
+    status: legacy_reference
+    path: protocols/core/abracadabra-protocol-specification-legacy.md
+  - id: addendum-01
+    title: Selective Semantic Recordkeeping
+    path: protocols/addenda/addendum-01-selective-semantic-recordkeeping.md
+  - id: addendum-02
+    title: Nested Loops and Group Quorums
+    path: protocols/addenda/addendum-02-nested-loops-and-group-quorums.md
+  - id: addendum-03
+    title: Minimal Witness Structures
+    path: protocols/addenda/addendum-03-minimal-witness-structures.md
+  - id: addendum-04
+    title: Loop-Local TOTP and Subjective Epochs
+    path: protocols/addenda/addendum-04-loop-local-totp-and-subjective-epochs.md
+  - id: addendum-05a
+    title: Witness-Readable Content with Controlled Verifiability
+    path: protocols/addenda/addendum-05a-witness-readable-controlled-verifiability.md
+  - id: addendum-05b
+    title: Affective Signaling and Consent Resonance
+    path: protocols/addenda/addendum-05b-affective-signaling-and-consent-resonance.md
+  - id: addendum-06
+    title: Conditional Deniability in Proof Structures
+    path: protocols/addenda/addendum-06-conditional-deniability.md
+  - id: addendum-07
+    title: Evaluation and Derivation Stewardship
+    path: protocols/addenda/addendum-07-evaluation-and-derivation-stewardship.md
+  - id: storage-forgetting
+    title: Storage and Forgetting Addendum
+    path: protocols/addenda/storage-forgetting-addendum.md
+  - id: consent-confirmation-loop
+    title: Consent Confirmation Loop Extension
+    path: protocols/extensions/consent-confirmation-loop-extension.md
+  - id: blockchain-extension
+    title: Blockchain Extension Concept
+    path: protocols/extensions/blockchain-extension.md
+  - id: promise-self-sovereign-privacy
+    title: The Promise of Abracadabracadoo - Something New in E2EE
+    path: protocols/whitepapers/promise-of-self-sovereign-privacy.md
+  - id: fractalidentity-rfc-0-1
+    title: FractalIdentity Protocol Specification RFC Draft 0.1
+    status: roadmap
+    path: protocols/fractal-identity/fractalidentity-protocol-specification-rfc-draft-0-1.md
