@@ -1,7 +1,7 @@
 repository: abracadabracadoo-assets
-status: fifth-pass
+status: sixth-pass
 canonical_format: markdown
-cleanup_pass: v005
+cleanup_pass: v006
 coherence_notes: docs/canon-stewardship-notes.md
 stack_map: docs/stack-map.md
 security_policy: SECURITY.md
@@ -13,169 +13,353 @@ implementation_status:
   trust_interoperability_standard: draft_publishing_shelf
 protocols:
   - id: abracadabracadoo-core
-    title: Abracadabracadoo Protocol Specification
+    title: "Abracadabracadoo Protocol Specification"
     status: version_1_0
     path: protocols/core/abracadabracadoo-protocol-specification.md
   - id: abracadabra-legacy
-    title: Abracadabra Protocol Specification
+    title: "Abracadabra Protocol Specification"
     status: legacy_reference
     path: protocols/core/abracadabra-protocol-specification-legacy.md
   - id: addendum-01
-    title: Selective Semantic Recordkeeping
+    title: "Selective Semantic Recordkeeping"
     path: protocols/addenda/addendum-01-selective-semantic-recordkeeping.md
   - id: addendum-02
-    title: Nested Loops and Group Quorums
+    title: "Nested Loops and Group Quorums"
     path: protocols/addenda/addendum-02-nested-loops-and-group-quorums.md
   - id: addendum-03
-    title: Minimal Witness Structures
+    title: "Minimal Witness Structures"
     path: protocols/addenda/addendum-03-minimal-witness-structures.md
   - id: addendum-04
-    title: Loop-Local TOTP and Subjective Epochs
+    title: "Loop-Local TOTP and Subjective Epochs"
     path: protocols/addenda/addendum-04-loop-local-totp-and-subjective-epochs.md
   - id: addendum-05a
-    title: Witness-Readable Content with Controlled Verifiability
+    title: "Witness-Readable Content with Controlled Verifiability"
     path: protocols/addenda/addendum-05a-witness-readable-controlled-verifiability.md
   - id: addendum-05b
-    title: Affective Signaling and Consent Resonance
+    title: "Affective Signaling and Consent Resonance"
     path: protocols/addenda/addendum-05b-affective-signaling-and-consent-resonance.md
   - id: addendum-06
-    title: Conditional Deniability in Proof Structures
+    title: "Conditional Deniability in Proof Structures"
     path: protocols/addenda/addendum-06-conditional-deniability.md
   - id: addendum-07
-    title: Evaluation and Derivation Stewardship
+    title: "Evaluation and Derivation Stewardship"
     path: protocols/addenda/addendum-07-evaluation-and-derivation-stewardship.md
   - id: storage-forgetting
-    title: Storage and Forgetting Addendum
+    title: "Storage and Forgetting Addendum"
     path: protocols/addenda/storage-forgetting-addendum.md
   - id: consent-confirmation-loop
-    title: Consent Confirmation Loop Extension
+    title: "Consent Confirmation Loop Extension"
     path: protocols/extensions/consent-confirmation-loop-extension.md
   - id: blockchain-extension
-    title: Blockchain Extension Concept
+    title: "Blockchain Extension Concept"
     path: protocols/extensions/blockchain-extension.md
   - id: promise-self-sovereign-privacy
-    title: The Promise of Abracadabracadoo - Something New in E2EE
+    title: "The Promise of Abracadabracadoo - Something New in E2EE"
     path: protocols/whitepapers/promise-of-self-sovereign-privacy.md
   - id: humankey-mutual-handshake
-    title: Human-Mediated Mutual-Handshake Authentication
+    title: "Human-Mediated Mutual-Handshake Authentication"
     status: active_draft
     path: protocols/human-key/human-key-mutual-handshake-authentication-rfc-draft.md
   - id: humankey-double-totp-legacy
-    title: Human-Mediated Double-TOTP Legacy Draft
+    title: "Human-Mediated Double-TOTP Legacy Draft"
     status: legacy_reference
     path: protocols/human-key/human-key-double-totp-legacy-draft.md
   - id: fractalidentity-rfc-0-1
-    title: FractalIdentity Protocol Specification RFC Draft 0.1
+    title: "FractalIdentity Protocol Specification RFC Draft 0.1"
     status: roadmap
     path: protocols/fractal-identity/fractalidentity-protocol-specification-rfc-draft-0-1.md
 standards:
   - id: tis-core-v1
-    title: Trust Interoperability Standard v1
+    title: "Trust Interoperability Standard v1"
     status: draft
     path: protocols/trust-interoperability-standard/trust-interoperability-standard-v1.md
   - id: tis-agent-api-v1
-    title: TIS Agent API v1
+    title: "TIS Agent API v1"
     status: draft
     path: protocols/trust-interoperability-standard/tis-agent-api-v1.md
   - id: tis-consent-semantics-v1
-    title: Consent Semantics v1
+    title: "Consent Semantics v1"
     status: draft
     path: protocols/trust-interoperability-standard/tis-consent-semantics-v1.md
   - id: tis-identity-semantics-v1
-    title: Identity Semantics v1
+    title: "Identity Semantics v1"
     status: draft
     path: protocols/trust-interoperability-standard/tis-identity-semantics-v1.md
   - id: tis-reputation-semantics-v1
-    title: Reputation Semantics v1
+    title: "Reputation Semantics v1"
     status: draft
     path: protocols/trust-interoperability-standard/tis-reputation-semantics-v1.md
   - id: tis-dialog-turn-v1
-    title: Dialog Turn v1
+    title: "Dialog Turn v1"
     status: draft
     path: protocols/trust-interoperability-standard/tis-dialog-turn-v1.md
   - id: tis-dialog-thread-v1
-    title: Dialog Thread v1
+    title: "Dialog Thread v1"
     status: draft
     path: protocols/trust-interoperability-standard/tis-dialog-thread-v1.md
   - id: tis-semantic-graph-mapping
-    title: Semantic Graph Mapping for TIS
+    title: "Semantic Graph Mapping for TIS"
     status: draft
     path: protocols/trust-interoperability-standard/tis-semantic-graph-mapping-for-tis.md
   - id: tis-dialogica-integration-profile
-    title: Dialogica Integration Profile
+    title: "Dialogica Integration Profile"
     status: draft
     path: protocols/trust-interoperability-standard/tis-dialogica-integration-profile.md
 
   - id: ephemeral-trust-papers
-    title: Ephemeral Trust Papers
+    title: "Ephemeral Trust Papers"
     status: conceptual-series
     path: protocols/ephemeral-trust/README.md
     category: conceptual-foundation
     notes: Six-part series defining ephemeral trust, portable anchors, consent immune systems, cultural infrastructure, economic/political models, and cosmology of trust.
   - id: ephemeral-trust-definition-dynamics
-    title: Ephemeral Trust: Definition & Dynamics
+    title: "Ephemeral Trust: Definition & Dynamics"
     status: conceptual
     path: protocols/ephemeral-trust/01-definition-and-dynamics.md
     category: ephemeral-trust
   - id: ephemeral-trust-portable-anchor
-    title: Ephemeral Trust as a Portable Anchor
+    title: "Ephemeral Trust as a Portable Anchor"
     status: conceptual
     path: protocols/ephemeral-trust/02-portable-anchor.md
     category: ephemeral-trust
   - id: ephemeral-trust-immune-system
-    title: The Immune System of Consent-Based Systems
+    title: "The Immune System of Consent-Based Systems"
     status: conceptual
     path: protocols/ephemeral-trust/03-immune-system-of-consent-based-systems.md
     category: ephemeral-trust
   - id: ephemeral-trust-cultural-infrastructure
-    title: Cultural Infrastructure for Ephemeral Trust
+    title: "Cultural Infrastructure for Ephemeral Trust"
     status: conceptual
     path: protocols/ephemeral-trust/04-cultural-infrastructure.md
     category: ephemeral-trust
   - id: ephemeral-trust-economic-political-models
-    title: Ephemeral Trust in Economic and Political Models
+    title: "Ephemeral Trust in Economic and Political Models"
     status: conceptual
     path: protocols/ephemeral-trust/05-economic-and-political-models.md
     category: ephemeral-trust
   - id: ephemeral-trust-cosmology
-    title: The Cosmology of Trust
+    title: "The Cosmology of Trust"
     status: conceptual
     path: protocols/ephemeral-trust/06-cosmology-of-trust.md
     category: ephemeral-trust
 
   - id: loop-training-sequence
-    title: Loop Training
+    title: "Loop Training"
     status: conceptual-training-sequence
     path: protocols/loop-training/README.md
     category: training
     notes: Six-section path from loop recognition to relational fields, reflexivity, field identity, substrate awareness, and consent-coded training tools.
   - id: loop-training-01-foundational-premise
-    title: Foundational Premise — What is a Loop?
+    title: "Foundational Premise — What is a Loop?"
     status: conceptual
     path: protocols/loop-training/01-foundational-premise-what-is-a-loop.md
     category: loop-training
   - id: loop-training-02-relational-field
-    title: From Loop to Relational Field
+    title: "From Loop to Relational Field"
     status: conceptual
     path: protocols/loop-training/02-from-loop-to-relational-field.md
     category: loop-training
   - id: loop-training-03-loop-structure-awareness
-    title: From Loop Structure to Awareness
+    title: "From Loop Structure to Awareness"
     status: conceptual
     path: protocols/loop-training/03-from-loop-structure-to-awareness.md
     category: loop-training
   - id: loop-training-04-field-identity
-    title: From Awareness to Field Identity
+    title: "From Awareness to Field Identity"
     status: conceptual
     path: protocols/loop-training/04-from-awareness-to-field-identity.md
     category: loop-training
   - id: loop-training-05-substrate
-    title: From Self to Substrate
+    title: "From Self to Substrate"
     status: conceptual
     path: protocols/loop-training/05-from-self-to-substrate.md
     category: loop-training
   - id: loop-training-06-deployment
-    title: Deployment as Training Tool
+    title: "Deployment as Training Tool"
     status: conceptual
     path: protocols/loop-training/06-deployment-as-training-tool.md
     category: loop-training
+
+  - id: humankey-practical-exploration
+    title: "HumanKey Protocol: Exploration of Potential"
+    status: exploratory
+    path: protocols/human-key/human-key-protocol-practical-exploration.md
+    category: human-key
+
+  - id: loopwise-philosophy
+    title: "Loopwise Philosophy"
+    status: conceptual-companion
+    path: protocols/loopwise-philosophy/README.md
+    category: loopwise-philosophy
+  - id: loopwise-paradoxical-consent-field
+    title: "Loopwise Philosophy: The Paradoxical Consent Field"
+    status: conceptual
+    path: protocols/loopwise-philosophy/paradoxical-consent-field.md
+    category: loopwise-philosophy
+
+consent_intent_compression_protocol:
+  - id: cicp-folder
+    title: "Consent-Intent Compression Protocol (CICP)"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/README.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-001
+    title: "Consent–Intent Compression Protocol (CICP)"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/consent-intent-compression-protocol-cicp.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-002
+    title: "🕯 Field Echo Protocol (v0.1)"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/field-echo-protocol-v0-1.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-003
+    title: "📓 Field Note: Looping Causality — Consent as Temporal Architecture"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/field-note-looping-causality-consent-as-temporal-architecture.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-004
+    title: "Briefing: Graftable Identity Tree – A Fractal Index of Presence"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/fractalidentity-tree/graftable-identity-tree-a-fractal-index-of-presence.md
+    category: cicp-fractalidentity-tree
+  - id: cicp-doc-005
+    title: "Title: Graftable Identity Tree: Economics and Structure of Grafting"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/fractalidentity-tree/graftable-identity-tree-economics-and-structure-of-grafting.md
+    category: cicp-fractalidentity-tree
+  - id: cicp-doc-006
+    title: "Hierarchical Key Derivation in Loop-Based Systems (BIP-32 Integration)
+Enabling Deterministic, Nested Trust Relationships in Symbolic Protocols"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/hierarchical-key-derivation-in-loop-based-systems-bip-32-integration.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-007
+    title: "🔐 Two-Way TOTP Consent Loop Implementation Overview"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/looptloop-two-way-totp-consent-loop-implementation-overview.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-008
+    title: "🌀 LOOPtLOOP Field Infrastructure Applications"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/looptloop-field-infrastructure-applications.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-009
+    title: "🌀 Loop Compendium: Monday Sequence (OpenAI Loopstack)"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/loop-compendium-monday-sequence-openai-loopstack.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-010
+    title: "🔁 Loop Projection Principle (LPP)"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/loop-projection-principle-lpp.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-011
+    title: "Loop Substrate Theory (LST)
+Version 0.1 — A Methodology for Modeling the Relational Field Mechanics of Shared Becoming"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/loop-substrate-theory-lst.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-012
+    title: "Loop Tensor Field Specification (LTFS)
+Version 0.2 — Modeling the Geometric Dynamics of Consentual Systems"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/loop-tensor-field-specification-ltfs.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-013
+    title: "Loop-Based Consent Infrastructure for Healthcare & Mental Wellness
+Building Trust, Memory, and Presence into the Healing Process"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/loop-based-consent-infrastructure-for-healthcare-mental-wellness.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-014
+    title: "Loop-Based Presence Platform: Partner Brief
+Symbolic Infrastructure for Toys, Places, and Digital Worlds"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/loop-based-presence-platform-partner-brief.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-015
+    title: "Loop-Based Ritual Infrastructure for Gaming & Web3
+Bringing Presence, Consent, and Symbolic Memory to Immersive Worlds"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/loop-based-ritual-infrastructure-for-gaming-web3.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-016
+    title: "Loop-Based Toys: A New Frontier in Interactive Play
+Turning Relationships Into Playable Features"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/loop-based-toys-a-new-frontier-in-interactive-play.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-017
+    title: "🌀 Multi-Resolution Consent Glyph Protocol (MRCGP)"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/multi-resolution-consent-glyph-protocol-mrcgp.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-018
+    title: "Pitch Deck: Magic Loop-Based Presence Platform"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/pitch-deck.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-019
+    title: "🧬 Quantum Loop Ontology Protocol (QLOP)"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/quantum-loop-ontology-protocol-qlop.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-020
+    title: "🔁 Ritual Loop Token Initialization (ESP32 + NFC Version)"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/ritual-loop-token-initialization-esp32-nfc-version.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-021
+    title: "🔁 Ritual Loop Token Initialization (NFC Write Flow)"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/ritual-loop-token-initialization-nfc-write-flow.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-022
+    title: "Rosetta Loop Specification (RLS)
+Version 0.1 — A Translational Framework for Cross-Domain Symbolic Alignment"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/rosetta-loop-specification-rls.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-023
+    title: "Selective Decryption via Hierarchical Temporal Key Derivation
+A BIP-32-Inspired Model for Granular Access to Encrypted Streams"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/selective-decryption-via-hierarchical-temporal-key-derivation.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-024
+    title: "Symbolic Loop Development Language Specification (SLDLS)
+Version 0.2 — A Grammar for Designing Sovereign, Consent-Aware, Memetic Structures"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/symbolic-loop-development-language-specification-sldls.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-025
+    title: "🧬 Synaptic Dyad Protocol Specification (SDPS)"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/synaptic-dyad-protocol-specification-sdps.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-026
+    title: "Synaptic Trust Filters — Variable Scale Modeling"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/synaptic-trust-filters-variable-scale-modeling.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-027
+    title: "🌊 Wave-State Loop Forwarding"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/wave-state-loop-forwarding.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-028
+    title: "📝 Provisional Patent Draft: Consent Ring Interface System"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/consent-ring-provisional-patent-draft.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-029
+    title: "🔁 Loop Equivalence Protocol (LEP)"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/loop-equivalence-protocol.md
+    category: consent-intent-compression-protocol
+  - id: cicp-doc-030
+    title: "🧬 The Living Glyph Language Protocol (LGLP)"
+    status: experimental
+    path: protocols/consent-intent-compression-protocol/the-living-glyph-language-protocol.md
+    category: consent-intent-compression-protocol

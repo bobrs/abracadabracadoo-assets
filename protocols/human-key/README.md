@@ -10,6 +10,7 @@ It centers human-mediated mutual authentication: two parties establish per-relat
 |---|---|---|
 | `human-key-mutual-handshake-authentication-rfc-draft.md` | Current HumanKey Internet-Draft style specification | Active draft |
 | `human-key-double-totp-legacy-draft.md` | Earlier HumanKey / double-TOTP draft | Legacy reference |
+| `human-key-protocol-practical-exploration.md` | Exploration of HumanKey applications, differentiation, monetization, and strategic potential | Exploratory |
 
 ## Implementation status
 

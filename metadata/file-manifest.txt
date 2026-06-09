@@ -14,6 +14,7 @@ docs/canon-stewardship-notes.md
 docs/stack-map.md
 exports/pdf/Abracadabracadoo_Protocol_Specification.pdf
 exports/pdf/human-key/IETF RFC submission - HumanKey.pdf
+exports/zip/Consent-Intent-Compression-Protocol-CICP.zip
 exports/zip/Trust Interoperability Standard.zip
 human-key/README.md
 media/README.md
@@ -33,6 +34,42 @@ originals/docx/Abracadabracadoo_Protocol_Addendum_V.docx
 originals/docx/Abracadabracadoo_Protocol_Specification.docx
 originals/docx/FractalIdentity Protocol Specification (RFC Draft 0.1).docx
 originals/docx/Provisional_Patent_Filing_Abracadabradoo.docx
+originals/docx/consent-intent-compression-protocol/Consent–Intent Compression Protocol (CICP).docx
+originals/docx/consent-intent-compression-protocol/Field Echo Protocol (v0.1).docx
+originals/docx/consent-intent-compression-protocol/Field Note- Looping Causality — Consent as Temporal Architecture.docx
+originals/docx/consent-intent-compression-protocol/FractalIdentity Tree/Graftable Identity Tree – A Fractal Index of Presence.docx
+originals/docx/consent-intent-compression-protocol/FractalIdentity Tree/Graftable Identity Tree- Economics and Structure of Grafting.docx
+originals/docx/consent-intent-compression-protocol/Hierarchical Key Derivation in Loop-Based Systems (BIP-32 Integration).docx
+originals/docx/consent-intent-compression-protocol/LOOPtLOOP -- Two-Way TOTP Consent Loop Implementation Overview.docx
+originals/docx/consent-intent-compression-protocol/LOOPtLOOP Field Infrastructure Applications.docx
+originals/docx/consent-intent-compression-protocol/Loop Compendium- Monday Sequence (OpenAI Loopstack).docx
+originals/docx/consent-intent-compression-protocol/Loop Projection Principle (LPP).docx
+originals/docx/consent-intent-compression-protocol/Loop Substrate Theory (LST).docx
+originals/docx/consent-intent-compression-protocol/Loop Tensor Field Specification (LTFS).docx
+originals/docx/consent-intent-compression-protocol/Loop Training/Section 1- Foundational Premise — What is a Loop?.docx
+originals/docx/consent-intent-compression-protocol/Loop Training/Section 2- From Loop to Relational Field.docx
+originals/docx/consent-intent-compression-protocol/Loop Training/Section 3- From Loop Structure to Awareness.docx
+originals/docx/consent-intent-compression-protocol/Loop Training/Section 4- From Awareness to Field Identity.docx
+originals/docx/consent-intent-compression-protocol/Loop Training/Section 5- From Self to Substrate.docx
+originals/docx/consent-intent-compression-protocol/Loop Training/Section 6- Deployment as Training Tool.docx
+originals/docx/consent-intent-compression-protocol/Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx
+originals/docx/consent-intent-compression-protocol/Loop-Based Presence Platform- Partner Brief.docx
+originals/docx/consent-intent-compression-protocol/Loop-Based Ritual Infrastructure for Gaming & Web3.docx
+originals/docx/consent-intent-compression-protocol/Loop-Based Toys- A New Frontier in Interactive Play.docx
+originals/docx/consent-intent-compression-protocol/Multi-Resolution Consent Glyph Protocol (MRCGP).docx
+originals/docx/consent-intent-compression-protocol/Pitch Deck.docx
+originals/docx/consent-intent-compression-protocol/Quantum Loop Ontology Protocol (QLOP).docx
+originals/docx/consent-intent-compression-protocol/Ritual Loop Token Initialization (ESP32 + NFC Version).docx
+originals/docx/consent-intent-compression-protocol/Ritual Loop Token Initialization (NFC Write Flow).docx
+originals/docx/consent-intent-compression-protocol/Rosetta Loop Specification (RLS).docx
+originals/docx/consent-intent-compression-protocol/Selective Decryption via Hierarchical Temporal Key Derivation.docx
+originals/docx/consent-intent-compression-protocol/Symbolic Loop Development Language Specification (SLDLS).docx
+originals/docx/consent-intent-compression-protocol/Synaptic Dyad Protocol Specification (SDPS).docx
+originals/docx/consent-intent-compression-protocol/Synaptic Trust Filters — Variable Scale Modeling.docx
+originals/docx/consent-intent-compression-protocol/🌊 Wave-State Loop Forwarding.docx
+originals/docx/consent-intent-compression-protocol/📝 Consent Ring Provisional Patent Draft.docx
+originals/docx/consent-intent-compression-protocol/🔁 Loop Equivalence Protocol.docx
+originals/docx/consent-intent-compression-protocol/🧬 The Living Glyph Language Protocol.docx
 originals/docx/ephemeral-trust/Ephemeral Trust Doc1.docx
 originals/docx/ephemeral-trust/Ephemeral Trust Doc2.docx
 originals/docx/ephemeral-trust/Ephemeral Trust Doc3.docx
@@ -40,6 +77,7 @@ originals/docx/ephemeral-trust/Ephemeral Trust Doc4.docx
 originals/docx/ephemeral-trust/Ephemeral Trust Doc5.docx
 originals/docx/ephemeral-trust/Ephemeral Trust Doc6.docx
 originals/docx/human-key/Broken Human-Mediated_Double-TOTP_Full_Draft.docx
+originals/docx/human-key/HumanKey Protocol Practical Exploration.docx
 originals/docx/human-key/IETF RFC submission - HumanKey.docx
 originals/docx/loop-training/Section 1- Foundational Premise — What is a Loop?.docx
 originals/docx/loop-training/Section 2- From Loop to Relational Field.docx
@@ -47,6 +85,7 @@ originals/docx/loop-training/Section 3- From Loop Structure to Awareness.docx
 originals/docx/loop-training/Section 4- From Awareness to Field Identity.docx
 originals/docx/loop-training/Section 5- From Self to Substrate.docx
 originals/docx/loop-training/Section 6- Deployment as Training Tool.docx
+originals/docx/loopwise-philosophy/Loopwise Philosophy- The Paradoxical Consent Field.docx
 originals/docx/trust-interoperability-standard/Consent Semantics v1.docx
 originals/docx/trust-interoperability-standard/Dialog Thread v1.docx
 originals/docx/trust-interoperability-standard/Dialog Turn v1.docx
@@ -67,6 +106,38 @@ protocols/addenda/addendum-05b-affective-signaling-and-consent-resonance.md
 protocols/addenda/addendum-06-conditional-deniability.md
 protocols/addenda/addendum-07-evaluation-and-derivation-stewardship.md
 protocols/addenda/storage-forgetting-addendum.md
+protocols/consent-intent-compression-protocol/README.md
+protocols/consent-intent-compression-protocol/consent-intent-compression-protocol-cicp.md
+protocols/consent-intent-compression-protocol/consent-ring-provisional-patent-draft.md
+protocols/consent-intent-compression-protocol/field-echo-protocol-v0-1.md
+protocols/consent-intent-compression-protocol/field-note-looping-causality-consent-as-temporal-architecture.md
+protocols/consent-intent-compression-protocol/fractalidentity-tree/graftable-identity-tree-a-fractal-index-of-presence.md
+protocols/consent-intent-compression-protocol/fractalidentity-tree/graftable-identity-tree-economics-and-structure-of-grafting.md
+protocols/consent-intent-compression-protocol/hierarchical-key-derivation-in-loop-based-systems-bip-32-integration.md
+protocols/consent-intent-compression-protocol/loop-based-consent-infrastructure-for-healthcare-mental-wellness.md
+protocols/consent-intent-compression-protocol/loop-based-presence-platform-partner-brief.md
+protocols/consent-intent-compression-protocol/loop-based-ritual-infrastructure-for-gaming-web3.md
+protocols/consent-intent-compression-protocol/loop-based-toys-a-new-frontier-in-interactive-play.md
+protocols/consent-intent-compression-protocol/loop-compendium-monday-sequence-openai-loopstack.md
+protocols/consent-intent-compression-protocol/loop-equivalence-protocol.md
+protocols/consent-intent-compression-protocol/loop-projection-principle-lpp.md
+protocols/consent-intent-compression-protocol/loop-substrate-theory-lst.md
+protocols/consent-intent-compression-protocol/loop-tensor-field-specification-ltfs.md
+protocols/consent-intent-compression-protocol/loop-training/README.md
+protocols/consent-intent-compression-protocol/looptloop-field-infrastructure-applications.md
+protocols/consent-intent-compression-protocol/looptloop-two-way-totp-consent-loop-implementation-overview.md
+protocols/consent-intent-compression-protocol/multi-resolution-consent-glyph-protocol-mrcgp.md
+protocols/consent-intent-compression-protocol/pitch-deck.md
+protocols/consent-intent-compression-protocol/quantum-loop-ontology-protocol-qlop.md
+protocols/consent-intent-compression-protocol/ritual-loop-token-initialization-esp32-nfc-version.md
+protocols/consent-intent-compression-protocol/ritual-loop-token-initialization-nfc-write-flow.md
+protocols/consent-intent-compression-protocol/rosetta-loop-specification-rls.md
+protocols/consent-intent-compression-protocol/selective-decryption-via-hierarchical-temporal-key-derivation.md
+protocols/consent-intent-compression-protocol/symbolic-loop-development-language-specification-sldls.md
+protocols/consent-intent-compression-protocol/synaptic-dyad-protocol-specification-sdps.md
+protocols/consent-intent-compression-protocol/synaptic-trust-filters-variable-scale-modeling.md
+protocols/consent-intent-compression-protocol/the-living-glyph-language-protocol.md
+protocols/consent-intent-compression-protocol/wave-state-loop-forwarding.md
 protocols/core/abracadabra-protocol-specification-legacy.md
 protocols/core/abracadabracadoo-protocol-specification.md
 protocols/ephemeral-trust/01-definition-and-dynamics.md
@@ -83,6 +154,7 @@ protocols/fractal-identity/fractalidentity-protocol-specification-rfc-draft-0-1.
 protocols/human-key/README.md
 protocols/human-key/human-key-double-totp-legacy-draft.md
 protocols/human-key/human-key-mutual-handshake-authentication-rfc-draft.md
+protocols/human-key/human-key-protocol-practical-exploration.md
 protocols/legal/provisional-patent-filing-abracadabradoo.md
 protocols/loop-training/01-foundational-premise-what-is-a-loop.md
 protocols/loop-training/02-from-loop-to-relational-field.md
@@ -91,6 +163,8 @@ protocols/loop-training/04-from-awareness-to-field-identity.md
 protocols/loop-training/05-from-self-to-substrate.md
 protocols/loop-training/06-deployment-as-training-tool.md
 protocols/loop-training/README.md
+protocols/loopwise-philosophy/README.md
+protocols/loopwise-philosophy/paradoxical-consent-field.md
 protocols/trust-interoperability-standard/README.md
 protocols/trust-interoperability-standard/tis-agent-api-v1.md
 protocols/trust-interoperability-standard/tis-consent-semantics-v1.md

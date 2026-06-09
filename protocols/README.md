@@ -17,7 +17,7 @@ Extensions describe optional practical layers such as consent confirmation loops
 
 ## HumanKey
 
-HumanKey is the relationship-sized authentication layer. The current draft is published under `human-key/`, along with a legacy double-TOTP draft retained for lineage.
+HumanKey is the relationship-sized authentication layer. The current draft is published under `human-key/`, along with a legacy double-TOTP draft and a practical exploration paper retained for lineage and strategic context.
 
 ## Trust Interoperability Standard
 
@@ -41,6 +41,13 @@ A six-section training sequence moving from foundational loop recognition to rel
 - [Loop Training](loop-training/)
 
 
+
+## Consent-Intent Compression Protocol (CICP)
+
+CICP is an experimental publishing shelf for consent-intent compression, symbolic loop language, LOOPtLOOP infrastructure, glyph protocols, loop equivalence, ritual/physical token flows, and related field-infrastructure work.
+
+- [Consent-Intent Compression Protocol](consent-intent-compression-protocol/)
+
 ## Status and provenance conventions
 
 Canonical Markdown files now include normalized frontmatter fields, including `registry_id`, `status`, `category`, and `canonical_format`. Where a source document used a poetic or historical status label, it may be retained as `original_status`.
@@ -48,3 +55,10 @@ Canonical Markdown files now include normalized frontmatter fields, including `r
 Historical names such as `Abracadabradoo`, `DeepTrust`, or `Dialogica` are preserved where they are part of source provenance or sibling protocol history. Current-facing materials should prefer `Abracadabracadoo` for the ecosystem name and `Abracadoo.app` for the reference implementation.
 
 See [`../docs/canon-stewardship-notes.md`](../docs/canon-stewardship-notes.md).
+
+
+## Loopwise Philosophy
+
+Conceptual companion materials for resonance-aware collaboration, non-cloning, and paradoxical consent fields.
+
+- [Loopwise Philosophy](loopwise-philosophy/)

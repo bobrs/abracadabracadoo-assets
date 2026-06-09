@@ -32,6 +32,8 @@ This repository is also not a standards body, legal filing system, or compliance
 | FractalIdentity | Roadmap | Context-sized selfhood, plural channels, roles, aliases, and boundaries for future versions of the app. |
 | Trust Interoperability Standard | Draft / publishing shelf | Semantic interoperability layer for trust offers, consent, identity, reputation, dialogue, and agent APIs. |
 | Loop Training | Conceptual / training sequence | Six-part path from loop recognition to field identity, substrate awareness, and consent-coded training tools. |
+| Loopwise Philosophy | Conceptual companion | Symbolic / philosophical language for resonance, non-collapse, and consent-aware iteration. |
+| Consent-Intent Compression Protocol | Experimental / publishing shelf | Compression, glyph, loop, ritual, and field-infrastructure documents adjacent to the loop stack. |
 
 
 ## Public safety / security note
@@ -58,13 +60,15 @@ protocols/
   human-key/            HumanKey draft and legacy reference materials
   trust-interoperability-standard/ Trust Interoperability Standard materials
   loop-training/       Loop reflexivity and field-awareness training materials
+  loopwise-philosophy/ Loopwise resonance and consent-field philosophy
+  consent-intent-compression-protocol/ CICP, glyph, loop, ritual, and field-infrastructure materials
 
 human-key/              HumanKey overview and media references
 assets/
   brand/                Marks, logos, and reusable brand elements
   app-preview/          Abracadoo.app preview assets
   site/                 Assets reused from abracadabracadoo.com
-media/                  Large media reference notes and future video placement
+media/                  Media reference notes; large videos should use Git LFS or Releases
 originals/              Original source files retained for provenance
 exports/                Generated PDFs or other publishable exports
 metadata/               Machine-readable indices
@@ -112,3 +116,21 @@ A six-part conceptual series on immediate, contextual, revocable trust; portable
 ### Loop Training
 
 A six-part training sequence for loop recognition, relational field sensing, structural reflexivity, field identity, substrate awareness, and deployment as consent-coded training tools. See [`protocols/loop-training/`](protocols/loop-training/).
+
+
+### Loopwise Philosophy
+
+A conceptual companion folder for resonance-aware collaboration, non-cloning, and consent fields. See [`protocols/loopwise-philosophy/`](protocols/loopwise-philosophy/).
+
+### HumanKey Practical Exploration
+
+A HumanKey exploration paper covering practical applications, differentiation, monetization, and strategic potential has been added under [`protocols/human-key/`](protocols/human-key/).
+
+
+### Consent-Intent Compression Protocol (CICP)
+
+CICP materials have been added as an experimental publishing shelf for consent-intent compression, symbolic loop language, glyph protocols, LOOPtLOOP infrastructure, ritual token flows, and related field-infrastructure documents. See [`protocols/consent-intent-compression-protocol/`](protocols/consent-intent-compression-protocol/).
+
+### Media handling note
+
+Large MP4 files are intentionally excluded from the main repo zip for now. Use Git LFS or GitHub Releases for future video publication.
