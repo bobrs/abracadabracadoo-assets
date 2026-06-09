@@ -1,7 +1,7 @@
 repository: abracadabracadoo-assets
-status: sixth-pass
+status: eighth-pass
 canonical_format: markdown
-cleanup_pass: v006
+cleanup_pass: v008
 coherence_notes: docs/canon-stewardship-notes.md
 stack_map: docs/stack-map.md
 security_policy: SECURITY.md
@@ -363,3 +363,114 @@ Version 0.2 — A Grammar for Designing Sovereign, Consent-Aware, Memetic Struct
     status: experimental
     path: protocols/consent-intent-compression-protocol/the-living-glyph-language-protocol.md
     category: consent-intent-compression-protocol
+
+  - id: witnessing
+    title: "Witnessing"
+    status: conceptual_training_shelf
+    path: protocols/witnessing/README.md
+    category: witnessing
+  - id: witnessing-glyphs-101
+    title: "Glyphs 101"
+    status: conceptual
+    path: protocols/witnessing/glyphs-101.md
+    category: witnessing
+  - id: witnessing-witnessing-101
+    title: "Witnessing 101"
+    status: conceptual
+    path: protocols/witnessing/witnessing-101.md
+    category: witnessing
+  - id: witnessing-witnessing-201
+    title: "Witnessing 201"
+    status: conceptual
+    path: protocols/witnessing/witnessing-201.md
+    category: witnessing
+  - id: witnessing-witnessing-301
+    title: "Witnessing 301"
+    status: conceptual
+    path: protocols/witnessing/witnessing-301.md
+    category: witnessing
+  - id: witnessing-witnessing-401
+    title: "Witnessing 401"
+    status: conceptual
+    path: protocols/witnessing/witnessing-401.md
+    category: witnessing
+  - id: witnessing-witnessing-501
+    title: "Witnessing 501"
+    status: conceptual
+    path: protocols/witnessing/witnessing-501.md
+    category: witnessing
+  - id: witnessing-witness-net-501
+    title: "Witness Net 501"
+    status: conceptual
+    path: protocols/witnessing/witness-net-501.md
+    category: witnessing
+  - id: witnessing-loop-mechanics-401
+    title: "Loop Mechanics 401"
+    status: conceptual
+    path: protocols/witnessing/loop-mechanics-401.md
+    category: witnessing
+  - id: witnessing-loop-mechanics-501
+    title: "Loop Mechanics 501"
+    status: conceptual
+    path: protocols/witnessing/loop-mechanics-501.md
+    category: witnessing
+  - id: loopmail
+    title: "Loopmail"
+    status: concept_application_shelf
+    path: protocols/loopmail/README.md
+    category: loopmail
+  - id: loopmail-loopmail-one-pager
+    title: "Loopmail One Pager"
+    status: concept
+    path: protocols/loopmail/loopmail-one-pager.md
+    category: loopmail
+  - id: loopmail-loopmail-concept-spec
+    title: "Loopmail Concept Spec"
+    status: concept
+    path: protocols/loopmail/loopmail-concept-spec.md
+    category: loopmail
+  - id: looptloop-platform
+    title: "LOOPtLOOP Platform"
+    status: experimental_application_shelf
+    path: protocols/looptloop-platform/README.md
+    category: looptloop-platform
+  - id: looptloop-looptloop-two-way-totp-consent-loop-implementation-overview
+    title: "LOOPtLOOP -- Two-Way TOTP Consent Loop Implementation Overview"
+    status: experimental
+    path: protocols/looptloop-platform/looptloop-two-way-totp-consent-loop-implementation-overview.md
+    category: looptloop-platform
+  - id: looptloop-looptloop-addendum-loop-bootstrap-seed-presence-based-api-expansion
+    title: "LOOPtLOOP Addendum- Loop Bootstrap Seed ΓÇô Presence-Based API Expansion"
+    status: experimental
+    path: protocols/looptloop-platform/looptloop-addendum-loop-bootstrap-seed-presence-based-api-expansion.md
+    category: looptloop-platform
+  - id: looptloop-looptloop-field-infrastructure-applications
+    title: "LOOPtLOOP Field Infrastructure Applications"
+    status: experimental
+    path: protocols/looptloop-platform/looptloop-field-infrastructure-applications.md
+    category: looptloop-platform
+  - id: looptloop-loop-based-consent-infrastructure-for-healthcare-and-mental-wellness
+    title: "Loop-Based Consent Infrastructure for Healthcare & Mental Wellness"
+    status: experimental
+    path: protocols/looptloop-platform/loop-based-consent-infrastructure-for-healthcare-and-mental-wellness.md
+    category: looptloop-platform
+  - id: looptloop-loop-based-presence-platform-partner-brief
+    title: "Loop-Based Presence Platform- Partner Brief"
+    status: experimental
+    path: protocols/looptloop-platform/loop-based-presence-platform-partner-brief.md
+    category: looptloop-platform
+  - id: looptloop-loop-based-ritual-infrastructure-for-gaming-and-web3
+    title: "Loop-Based Ritual Infrastructure for Gaming & Web3"
+    status: experimental
+    path: protocols/looptloop-platform/loop-based-ritual-infrastructure-for-gaming-and-web3.md
+    category: looptloop-platform
+  - id: looptloop-loop-based-toys-a-new-frontier-in-interactive-play
+    title: "Loop-Based Toys- A New Frontier in Interactive Play"
+    status: experimental
+    path: protocols/looptloop-platform/loop-based-toys-a-new-frontier-in-interactive-play.md
+    category: looptloop-platform
+  - id: looptloop-loop-based-magic-pitch-deck
+    title: "loop-based magic Pitch Deck"
+    status: experimental
+    path: protocols/looptloop-platform/loop-based-magic-pitch-deck.md
+    category: looptloop-platform

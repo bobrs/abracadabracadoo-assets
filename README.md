@@ -34,6 +34,9 @@ This repository is also not a standards body, legal filing system, or compliance
 | Loop Training | Conceptual / training sequence | Six-part path from loop recognition to field identity, substrate awareness, and consent-coded training tools. |
 | Loopwise Philosophy | Conceptual companion | Symbolic / philosophical language for resonance, non-collapse, and consent-aware iteration. |
 | Consent-Intent Compression Protocol | Experimental / publishing shelf | Compression, glyph, loop, ritual, and field-infrastructure documents adjacent to the loop stack. |
+| Witnessing | Conceptual / training shelf | Glyph literacy, witness-net concepts, loop mechanics, and progressive witnessing practice. |
+| Loopmail | Concept / application shelf | Context-aware, relationship-specific email as consent-native communication loops. |
+| LOOPtLOOP Platform | Experimental / application shelf | Presence-based API, TOTP consent loop, ritual infrastructure, toys, healthcare/wellness, and partner materials. |
 
 
 ## Public safety / security note
@@ -61,6 +64,9 @@ protocols/
   trust-interoperability-standard/ Trust Interoperability Standard materials
   loop-training/       Loop reflexivity and field-awareness training materials
   loopwise-philosophy/ Loopwise resonance and consent-field philosophy
+  witnessing/          Glyph literacy, witness-net, and witnessing practice materials
+  loopmail/            Context-aware, relationship-specific email concept
+  looptloop-platform/  LOOPtLOOP platform, presence, ritual, and field-infrastructure materials
   consent-intent-compression-protocol/ CICP, glyph, loop, ritual, and field-infrastructure materials
 
 human-key/              HumanKey overview and media references
@@ -134,3 +140,16 @@ CICP materials have been added as an experimental publishing shelf for consent-i
 ### Media handling note
 
 Large MP4 files are intentionally excluded from the main repo zip for now. Use Git LFS or GitHub Releases for future video publication.
+
+### Witnessing
+
+Witnessing materials have been added as a conceptual and training-adjacent shelf for glyph literacy, witness-net concepts, loop mechanics, and progressive witnessing practice. See [`protocols/witnessing/`](protocols/witnessing/).
+
+### Loopmail
+
+Loopmail materials have been added as an application-layer concept for context-aware, relationship-specific email and consent-native communication loops. See [`protocols/loopmail/`](protocols/loopmail/).
+
+### LOOPtLOOP Platform
+
+LOOPtLOOP platform materials have been added as a dedicated shelf for presence-based APIs, two-way TOTP consent loops, field infrastructure, ritual infrastructure, healthcare/wellness, toys, and partner/pitch materials. See [`protocols/looptloop-platform/`](protocols/looptloop-platform/).
+

@@ -48,6 +48,25 @@ CICP is an experimental publishing shelf for consent-intent compression, symboli
 
 - [Consent-Intent Compression Protocol](consent-intent-compression-protocol/)
 
+
+## Witnessing
+
+Witnessing materials cover glyph literacy, witness-net concepts, loop mechanics, and progressive witnessing practice.
+
+- [Witnessing](witnessing/)
+
+## Loopmail
+
+Loopmail is a context-aware, relationship-specific email concept that uses consent, purpose, tone, and loop memory to structure communication.
+
+- [Loopmail](loopmail/)
+
+## LOOPtLOOP Platform
+
+LOOPtLOOP platform materials describe two-way TOTP consent loops, presence-based APIs, ritual infrastructure, toys, healthcare/wellness, and partner-facing platform concepts.
+
+- [LOOPtLOOP Platform](looptloop-platform/)
+
 ## Status and provenance conventions
 
 Canonical Markdown files now include normalized frontmatter fields, including `registry_id`, `status`, `category`, and `canonical_format`. Where a source document used a poetic or historical status label, it may be retained as `original_status`.

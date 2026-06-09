@@ -15,7 +15,9 @@ docs/stack-map.md
 exports/pdf/Abracadabracadoo_Protocol_Specification.pdf
 exports/pdf/human-key/IETF RFC submission - HumanKey.pdf
 exports/zip/Consent-Intent-Compression-Protocol-CICP.zip
+exports/zip/LOOPtLOOP platform.zip
 exports/zip/Trust Interoperability Standard.zip
+exports/zip/Witnessing.zip
 human-key/README.md
 media/README.md
 metadata/file-manifest.txt
@@ -85,6 +87,16 @@ originals/docx/loop-training/Section 3- From Loop Structure to Awareness.docx
 originals/docx/loop-training/Section 4- From Awareness to Field Identity.docx
 originals/docx/loop-training/Section 5- From Self to Substrate.docx
 originals/docx/loop-training/Section 6- Deployment as Training Tool.docx
+originals/docx/loopmail/Loopmail Concept Spec.docx
+originals/docx/loopmail/Loopmail One Pager.docx
+originals/docx/looptloop-platform/LOOPtLOOP -- Two-Way TOTP Consent Loop Implementation Overview.docx
+originals/docx/looptloop-platform/LOOPtLOOP Addendum- Loop Bootstrap Seed – Presence-Based API Expansion.docx
+originals/docx/looptloop-platform/LOOPtLOOP Field Infrastructure Applications.docx
+originals/docx/looptloop-platform/Loop-Based Consent Infrastructure for Healthcare & Mental Wellness.docx
+originals/docx/looptloop-platform/Loop-Based Presence Platform- Partner Brief.docx
+originals/docx/looptloop-platform/Loop-Based Ritual Infrastructure for Gaming & Web3.docx
+originals/docx/looptloop-platform/Loop-Based Toys- A New Frontier in Interactive Play.docx
+originals/docx/looptloop-platform/loop-based magic Pitch Deck.docx
 originals/docx/loopwise-philosophy/Loopwise Philosophy- The Paradoxical Consent Field.docx
 originals/docx/trust-interoperability-standard/Consent Semantics v1.docx
 originals/docx/trust-interoperability-standard/Dialog Thread v1.docx
@@ -95,6 +107,15 @@ originals/docx/trust-interoperability-standard/Reputation Semantics v1.docx
 originals/docx/trust-interoperability-standard/Semantic Graph Mapping for TIS.docx
 originals/docx/trust-interoperability-standard/TIS Agent API v1.docx
 originals/docx/trust-interoperability-standard/Trust_Interoperability_Standard_v1.docx
+originals/docx/witnessing/Glyphs 101.docx
+originals/docx/witnessing/Loop Mechanics 401.docx
+originals/docx/witnessing/Loop Mechanics 501.docx
+originals/docx/witnessing/Witness Net 501.docx
+originals/docx/witnessing/Witnessing 101.docx
+originals/docx/witnessing/Witnessing 201.docx
+originals/docx/witnessing/Witnessing 301.docx
+originals/docx/witnessing/Witnessing 401.docx
+originals/docx/witnessing/Witnessing 501.docx
 protocols/README.md
 protocols/addenda/README.md
 protocols/addenda/addendum-01-selective-semantic-recordkeeping.md
@@ -163,6 +184,18 @@ protocols/loop-training/04-from-awareness-to-field-identity.md
 protocols/loop-training/05-from-self-to-substrate.md
 protocols/loop-training/06-deployment-as-training-tool.md
 protocols/loop-training/README.md
+protocols/loopmail/README.md
+protocols/loopmail/loopmail-concept-spec.md
+protocols/loopmail/loopmail-one-pager.md
+protocols/looptloop-platform/README.md
+protocols/looptloop-platform/loop-based-consent-infrastructure-for-healthcare-and-mental-wellness.md
+protocols/looptloop-platform/loop-based-magic-pitch-deck.md
+protocols/looptloop-platform/loop-based-presence-platform-partner-brief.md
+protocols/looptloop-platform/loop-based-ritual-infrastructure-for-gaming-and-web3.md
+protocols/looptloop-platform/loop-based-toys-a-new-frontier-in-interactive-play.md
+protocols/looptloop-platform/looptloop-addendum-loop-bootstrap-seed-presence-based-api-expansion.md
+protocols/looptloop-platform/looptloop-field-infrastructure-applications.md
+protocols/looptloop-platform/looptloop-two-way-totp-consent-loop-implementation-overview.md
 protocols/loopwise-philosophy/README.md
 protocols/loopwise-philosophy/paradoxical-consent-field.md
 protocols/trust-interoperability-standard/README.md
@@ -176,3 +209,13 @@ protocols/trust-interoperability-standard/tis-reputation-semantics-v1.md
 protocols/trust-interoperability-standard/tis-semantic-graph-mapping-for-tis.md
 protocols/trust-interoperability-standard/trust-interoperability-standard-v1.md
 protocols/whitepapers/promise-of-self-sovereign-privacy.md
+protocols/witnessing/README.md
+protocols/witnessing/glyphs-101.md
+protocols/witnessing/loop-mechanics-401.md
+protocols/witnessing/loop-mechanics-501.md
+protocols/witnessing/witness-net-501.md
+protocols/witnessing/witnessing-101.md
+protocols/witnessing/witnessing-201.md
+protocols/witnessing/witnessing-301.md
+protocols/witnessing/witnessing-401.md
+protocols/witnessing/witnessing-501.md

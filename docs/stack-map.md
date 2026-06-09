@@ -7,6 +7,7 @@ Conceptual foundations
   Ephemeral Trust
   Loop Training
   Loopwise Philosophy
+  Witnessing
 
 Relationship / authentication layer
   HumanKey
@@ -19,6 +20,10 @@ Identity roadmap layer
 
 Compression / symbolic infrastructure layer
   Consent-Intent Compression Protocol
+
+Application / field infrastructure layer
+  Loopmail
+  LOOPtLOOP Platform
 
 Interoperability layer
   Trust Interoperability Standard
@@ -33,10 +38,13 @@ Implementation
 |---|---|---|
 | Ephemeral Trust | Conceptual foundation for temporary, contextual, revocable trust. | Conceptual series |
 | Loop Training | Training path for loop recognition, field identity, and consent-coded practice. | Conceptual / training |
+| Witnessing | Glyph literacy, witness-net concepts, loop mechanics, and practice of presence. | Conceptual / training |
 | HumanKey | Relationship-sized authentication and reciprocal key relationships. | Live in beta |
 | Abracadabracadoo | Consent-native communication, proof, witness, and verification patterns. | Live in beta |
 | FractalIdentity | Context-sized selfhood, plural channels, roles, aliases, and boundaries. | Roadmap |
 | Consent-Intent Compression Protocol | Consent-intent compression, symbolic loop language, glyph protocols, LOOPtLOOP, ritual tokens, and field-infrastructure work. | Experimental |
+| Loopmail | Context-aware, relationship-specific email as consent-native communication loops. | Concept / application |
+| LOOPtLOOP Platform | Presence-based APIs, two-way TOTP consent loops, ritual and field infrastructure, and partner-facing applications. | Experimental / application |
 | Trust Interoperability Standard | Semantic interoperability for trust-bearing systems and agents. | Draft |
 | Abracadoo.app | Free reference implementation of consent-native trust. | Functional beta |
 
@@ -53,3 +61,8 @@ Loopwise Philosophy is a conceptual companion layer: symbolic language for reson
 ## Consent-Intent Compression Protocol
 
 CICP sits between conceptual loop literacy and implementable field infrastructure. It collects compression, glyph, ritual, temporal, key-derivation, and loop-language documents that act like connector studs between the more formal protocol layers.
+
+
+## Witnessing, Loopmail, and LOOPtLOOP
+
+Witnessing strengthens the field-practice layer around presence, recognition, glyph literacy, and loop stewardship. Loopmail and LOOPtLOOP translate those ideas into application and platform surfaces: relationship-specific communication, presence-based APIs, and deployable loop infrastructure.
